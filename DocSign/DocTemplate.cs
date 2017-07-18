@@ -90,7 +90,7 @@ namespace DocSign
             string randomString = Guid.NewGuid().ToString().Substring(0, 8);
             string tempPath = Path.GetTempPath();
 
-            string result = tempPath + "\" + randomString + ".docx";
+            string result = tempPath + "\\" + randomString + ".docx";
 
             return result;
         }
